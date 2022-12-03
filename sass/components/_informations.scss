@@ -1,0 +1,40 @@
+.informations {
+  display: flex;
+  list-style: none;
+  max-width: 1170px;
+  justify-content: space-between;
+
+  .informations__title {
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .informations__text {
+    font-family: "Roboto";
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--links-text-color);
+  }
+}
+
+.informations__box {
+  width: 270px;
+}
+
+.informations__icon-box {
+  width: 270px;
+  height: 120px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+
+.informations__icon {
+  margin: 25px 100px;
+  width: 70px;
+  height: 70px;
+}
